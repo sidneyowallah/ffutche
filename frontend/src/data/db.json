@@ -1,0 +1,24 @@
+{
+	"subjects": [
+		{
+			"id": 1,
+			"name": "math"
+		},
+		{
+			"id": 2,
+			"name": "reading"
+		},
+		{
+			"id": 3,
+			"name": "english"
+		},
+		{
+			"id": 4,
+			"name": "science"
+		},
+		{
+			"id": 5,
+			"name": "social studies"
+		}
+	]
+}
