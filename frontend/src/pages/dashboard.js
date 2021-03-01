@@ -8,7 +8,8 @@ const Section = styled.section`
 	height: 100%;
 	padding: 4rem 0rem;
 `;
-const CampaignGridContainer = styled.div`
+const DashboardGridContainer = styled.div`
+	margin: 15px;
 	padding: 3rem calc(100vw - 1300px) / 2;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -18,14 +19,8 @@ const CampaignGridContainer = styled.div`
 		grid-template-columns: 1fr;
 	}
 `;
-const CampaignItem = styled(Link)`
-	// z-index: 100;
-	height: 400px;
-	// margin-bottom: 30px;
-	// background-color: #ffffff;
-	// box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
-	// transition: all 0.4s ease;
-
+const DashboardItem = styled(Link)`
+	height: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -59,12 +54,12 @@ const CampaignItem = styled(Link)`
 const Dashboard = () => {
 	return (
 		<Section>
-			<CampaignGridContainer>
-				<CampaignItem to="/donor-form"> Donor Form</CampaignItem>
-				<CampaignItem to="/scholarship-form">Scholarships Form</CampaignItem>
-				<CampaignItem to="/school-form"> Schools Form</CampaignItem>
-				<CampaignItem to="/tuition-form">School Tuition Form</CampaignItem>
-			</CampaignGridContainer>
+			<DashboardGridContainer>
+				<DashboardItem to="/user-form"> User Form</DashboardItem>
+				<DashboardItem to="/donor-form"> Donor Form</DashboardItem>
+				<DashboardItem to="/scholarship-form">Scholarships Form</DashboardItem>
+				<DashboardItem to="/school-form"> Schools Form</DashboardItem>
+			</DashboardGridContainer>
 		</Section>
 	);
 };

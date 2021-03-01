@@ -1,12 +1,20 @@
 import React from 'react';
 import { menuData } from '../../data/MenuData';
 import { Button } from '../Button';
-import { Nav, NavLink, NavMenu, NavBtn, NavBtnLink, MenuBars, Logo } from './NavbarElements';
+import {
+	Nav,
+	NavLink,
+	NavMenu,
+	NavBtn,
+	NavBtnLink,
+	MenuBars,
+	Logo,
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
 	return (
 		<Nav>
-			<Logo to='/' />
+			<Logo to="/" />
 			<MenuBars onClick={toggle} />
 			<NavMenu>
 				{menuData.map((item, index) => (
@@ -16,7 +24,7 @@ const Navbar = ({ toggle }) => {
 				))}
 			</NavMenu>
 			<NavBtn>
-				<Button to='/sign-up' primary='true'>
+				<Button to="/user-form" primary="true">
 					Register
 				</Button>
 			</NavBtn>
