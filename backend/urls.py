@@ -20,6 +20,7 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('ffutche.urls'))
-    path('', TemplateView.as_view(template_name='index.html')),
+    path('api/', include('ffutche.api.url', namespace='api')),
+    # path('', TemplateView.as_view(template_name='index.html')),
     re_path(r'^(?:.*)/?$', TemplateView.as_view(template_name='index.html'))
 ]
