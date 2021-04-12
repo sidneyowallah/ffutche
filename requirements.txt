@@ -12,7 +12,6 @@ nats-python==0.8.0
 numpy==1.19.2
 pandas==1.1.2
 protobuf==3.14.0
-psycopg2==2.8.6
 pyodbc==4.0.30
 python-dateutil==2.8.1
 pytz==2020.1
