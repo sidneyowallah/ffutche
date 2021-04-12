@@ -65,12 +65,12 @@ class Student_Education(models.Model):
         return self.school_id
 
 class Scholarship(models.Model):
-    scholarship_id = models.CharField(max_length=120)
-    denomination = models.CharField(max_length=120)
-    preffered_studies = models.CharField(max_length=120)
-    minimum_amount = models.CharField(max_length=120)
-    description = models.CharField(max_length=120)
-    criteria = models.CharField(max_length=120)
+    scholarship_id = models.CharField(max_length=130)
+    denomination = models.CharField(max_length=130)
+    preffered_studies = models.CharField(max_length=130)
+    minimum_amount = models.CharField(max_length=130)
+    description = models.CharField(max_length=130)
+    criteria = models.CharField(max_length=130)
 
     def _str_(self):
         return self.scholarship_id
