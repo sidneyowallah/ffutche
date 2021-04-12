@@ -1,12 +1,14 @@
 asgiref==3.3.1
 certifi==2020.12.5
 chardet==4.0.0
+dj-database-url==0.5.0
 Django==3.1.7
 django-cors-headers==3.7.0
+django-heroku==0.3.1
 djangorestframework==3.12.2
+gunicorn==20.1.0
 idna==2.10
 nats-python==0.8.0
-numpy==1.19.2
 protobuf==3.14.0
 psycopg2==2.8.6
 pyodbc==4.0.30
@@ -19,3 +21,4 @@ texttable==1.6.3
 toolz==0.11.1
 urllib3==1.26.3
 wcwidth==0.2.5
+whitenoise==5.2.0
