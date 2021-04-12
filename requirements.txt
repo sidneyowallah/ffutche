@@ -9,6 +9,8 @@ djangorestframework==3.12.2
 gunicorn==20.1.0
 idna==2.10
 nats-python==0.8.0
+numpy==1.19.2
+pandas==1.1.2
 protobuf==3.14.0
 psycopg2==2.8.6
 pyodbc==4.0.30
